@@ -1,5 +1,6 @@
 ---
 title: 홈
+comments: "false"
 ---
 ## 목표
 

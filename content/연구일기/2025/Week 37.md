@@ -1,5 +1,6 @@
 ---
 title: Week 37
+comments: "false"
 ---
 # 인풋
 
