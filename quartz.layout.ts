@@ -38,6 +38,11 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
+    Component.RecentNotes({
+      title: "Recents",
+      limit: 3,
+      showTags: false
+    }),
     Component.Explorer(),
   ],
   right: [
