@@ -18,7 +18,7 @@ const config: QuartzConfig = {
     locale: "en-US",
     baseUrl: "versabers.pages.dev",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "publish",
+    defaultDateType: "published",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -57,7 +57,7 @@ const config: QuartzConfig = {
     transformers: [
       Plugin.FrontMatter(),
       Plugin.CreatedModifiedDate({
-        priority: ["git", "frontmatter", "filesystem"],
+        priority: ["frontmatter", "filesystem", "git"],
       }),
       Plugin.SyntaxHighlighting({
         theme: {
