@@ -2,10 +2,12 @@
 title: Week 37
 comments: "false"
 ---
+
 ## 인풋
 
 - Becker, Edwin D. Cherie L. Fisk and C. L. Khetrapal. (2007) "Development of NMR: From the Early Beginnings to the Early 1990s" eMagRes. [Link](https://doi.org/10.1002/9780470034590.emrhp0001)
 - Reinhardt, Carsten. (2006) *Shifting and Rearranging: Physical Methods and the Transformation of Modern Chemistry*, Science History Publications, Chapter 5 and 7.
+
 ## 아웃풋
 
 ## 이야기
