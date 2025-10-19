@@ -1,6 +1,7 @@
 ---
 title: Week 37
 comments: "false"
+date: 2025-09-14
 ---
 
 ## 인풋
