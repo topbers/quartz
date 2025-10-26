@@ -4,7 +4,7 @@ date: 2025-10-05
 
 ## 인풋
 
-- Rheinberger, Hans-Jörg. (1997) *Toward a History of Epistemic Things: Synthesizing Proteins in the Test Tube.* Stanford: Stanford University Press. Chapters 12, 13, and Epilogue.
+- Rheinberger, Hans-Jörg. (1997) *Toward a History of Epistemic Things: Synthesizing Proteins in the Test Tube.* Stanford: Stanford University Press. Chapters 12, 13, and Epilogue.
 
 ## 아웃풋
 
