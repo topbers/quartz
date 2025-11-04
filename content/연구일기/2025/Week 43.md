@@ -7,10 +7,6 @@ date: 2025-10-26
 
 - Rheinberger, Hans-Jörg (2010), *On Historicizing Epistemology: An Essay*, Ch. 2-5.
 
-## 아웃풋
-
-- **공대사 연구과제** 기계공학부
-
 ## 이야기
 
 ### 2025-10-20 Mon

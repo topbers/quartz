@@ -7,8 +7,6 @@ date: 2025-10-27
 - Rheinberger, Hans-Jörg (2010), *On Historicizing Epistemology: An Essay*, Ch. 6, Conclusion.
 - 이호진(2020), 『Git 교과서』 , 길벗, Ch. 1-3.
 
-## 아웃풋
-
 ## 이야기
 
 ### 2025-10-27 Mon
