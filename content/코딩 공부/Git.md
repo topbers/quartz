@@ -6,19 +6,7 @@ date: 2025-10-28
 > [!tip] Git and GitHub
 > 딱히 다른 프로그래머와 협업할 일까지는 없을 듯하지만 깃헙에서 쓸만한 코드들은 쏙쏙 배워오기 위해 기본 지식 습득하기. 나만 알아보면 되는 정도로 간단하게 정리한다.
 
-## Basic (Linux) Grammar
-
-| command             | meaning                                | options                                                                      |
-| ------------------- | -------------------------------------- | ---------------------------------------------------------------------------- |
-| `mkdir`             | make the folder                        | `-p a/b/c` with parents<br>`-v` check                                        |
-| `cd`                | go to the folder                       |                                                                              |
-| `mv`                | move `mv [option] [from] [to]`         | `-f` force                                                                   |
-| `cp`                | copy `cp [option] [what] [to where]`   | `-r` every (**with git**)<br>`-a`<br>`-f` force<br>`-n` no if already exists |
-| `rm`                | remove                                 | `-r` delete dir too<br>`-v` show the process                                 |
-| `ls`                | list up the entities within the folder |                                                                              |
-| `cat`               | show the content/ "concatenate"        |                                                                              |
-| `cmp` `diff` `comm` | comparing / difference / commonalities |                                                                              |
-| `code`              | open VS Code                           |                                                                              |
+우선 [[Linux Grammar]]를 알아야 터미널을 왔다갔다할 수 있다. 마우스 없는 컴퓨터의 디렉토리들을 움직이는 법을 배운다는 느낌으로. [[Git Basics]]에서 지금까지 배운 내용을 내가 알아보기 쉽게 정리했다. 
 
 ## Start
 
@@ -64,40 +52,3 @@ collaborate (see also: git help workflows)
    push       Update remote refs along with associated objects
 ```
 
-## Basic
-
-### Configuration
-
-숨은 폴더로 `.git` 생성 → 이 안에 `.git/config` 파일이 있다. `cat .git/config` 로 내용 확인 가능. 수정은 바깥 폴더에서 `git config [type] "aaa"`로 가능. 여기서 `[type]`는 `user.name` `user.email` 등.
-
-### Working Directory and Stage
-
-- Working Directory: 내 작업공간
-	- 여기서 `git add` 하면 stage에 등록 (**tracked**)
-	- 파일이 수정되면 그 파일은 modified 상태, unstaged
-- staged / unstaged 를 구분하면 되는 듯
-
-### Status
-
-- `git status` 상태 확인 ⋯ 또는
-- 소스트리에서 staged / unstaged 파일 
-
-### Gitignore
-
-- `.gitignore` 라는 이름을 가진 파일을 최상위 디렉토리에 생성: 내가 쓸 일은 거의 없겠지만 일단 알아 두기
-```
-# 만능 문자열
-*.obj
-
-# 이건 제외하지 말기는 느낌표로
-!config.php
-
-# 이 디렉토리 아래의 모든 .txt 파일
-doc/**/*.txt
-```
-
-### Clone
-
-공개된 저장소의 URL을 알고, 어디 폴더로 클론해 오고 싶을 때
-
-`git clone URL 새폴더이름`
